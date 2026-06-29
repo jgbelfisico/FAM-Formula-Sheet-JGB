@@ -1,0 +1,21 @@
+/***************************************/
+
+/* Permitir scroll horizontal en ecuaciones de bloque largas */
+.math.display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+  display: block;
+}
+
+/* Forzar barra de desplazamiento horizontal en tablas largas */
+.book .book-body .page-wrapper .page-inner table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/***************************************/
